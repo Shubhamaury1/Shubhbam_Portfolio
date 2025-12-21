@@ -340,7 +340,7 @@ export default function InternshipExperience() {
                 variants={fadeUp}
                 initial="hidden"
                 whileInView="visible"
-                viewport={{amount: 0.3 }}
+                viewport={{ once: true, amount: 0.3 }}
               >
 
               {/* Logo Column */}
@@ -381,12 +381,12 @@ export default function InternshipExperience() {
                 </div>
 
                 {/* Description */}
-                <p className="text-base sm:text-lg text-gray-700 mb-4">
+                <p className="text-base sm:text-lg text-gray-700 mb-4 text-left">
                   {item.description}
                 </p>
 
                 {/* Points */}
-                <ul className="text-base sm:text-lg text-gray-700 sapce-y-2 list-disc ml-5">
+                <ul className="text-base sm:text-lg text-gray-700 sapce-y-2 list-disc ml-5 text-left">
                   {item.points.map((point, i) => (
                     <li key={i}>{point}</li>
                   ))}

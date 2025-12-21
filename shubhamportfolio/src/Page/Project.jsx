@@ -39,7 +39,7 @@ function Project() {
 
 
           {/* PARAGRAPH BELOW H3 */}
-          <p className="text-3xl text-gray-600 mr-6">
+          <p className="text-gray-600 mr-6 text-xl sm:text-2xl lg:text-3xl text-left mx-10 sm:mx-6 md:mx-2 lg:mx-16">
            My projects make use of a wide range of modern technologies and tools. 
            I have hands-on experience in building Data Analysts, Machine Learning and Full Stack Developer solutions and transforming 
            them into scalable web applications. I specialize in deploying these applications using cloud infrastructure, 

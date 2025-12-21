@@ -40,7 +40,7 @@ function ContactMe() {
             Contact Me
           </h2>
 
-          <p className="text-gray-600 mr-6 text-md">
+          <p className="text-gray-600 mr-6 text-lg sm:text-xl lg:text-2xl px-4 text-left sm:text-center mx-12  md:mx-2 lg:mx-2">
             I am available on almost every social media platform. You can
             message me anytime — I usually reply within 24 hours. I can help
             with software development, web applications, ML, Data Analyst and

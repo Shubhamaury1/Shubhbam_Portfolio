@@ -36,8 +36,8 @@ function Navbar() {
   return (
     <nav className="top-0 left-0 w-full bg-sky-50 z-50">
       <div
-        //className="max-w-7xl mx-auto flex justify-between items-center px-6 py-4"
-        className="max-w-8xl ml-14 mr-24 flex justify-between items-center px-6 py-4"
+        className="max-w-8xl ml-0 lg:ml-14 mr-0 lg:mr-24 mx-auto flex justify-between items-center px-6 py-4"
+        //className="max-w-8xl ml-14 mr-24 flex justify-between items-center px-6 py-4"
         key={location.pathname}
       >
         {/* Logo */}
@@ -82,7 +82,7 @@ function Navbar() {
 
         {/* Mobile Menu Button - THREE DOTS */}
         <button
-          className="md:hidden text-sky-900 text-3xl"
+          className="md:hidden text-sky-900 text-3xl mt-2"
           onClick={() => setIsOpen(!isOpen)}
         >
           <BsThreeDotsVertical />

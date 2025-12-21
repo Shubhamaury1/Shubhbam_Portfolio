@@ -23,7 +23,7 @@ export default function BasicQualification() {
         >
           <img
             src={educationImg}
-            className="w-[90%] sm:w-[70%] md:w-[85%] lg:w-[80%]"
+            className="w-[70%] sm:w-[70%] md:w-[85%] lg:w-[80%]"
             alt="Education Illustration"
           />
         </motion.div>

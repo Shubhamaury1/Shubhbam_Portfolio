@@ -4,8 +4,6 @@ import {
   FaLinkedin,
   FaYoutube,
   FaGoogle,
-  FaXTwitter,
-  FaFacebook,
   FaInstagram,
 } from "react-icons/fa6";
 import { motion } from "framer-motion";
@@ -14,7 +12,7 @@ import { Link } from "react-router-dom";
 
 export default function HeroSection() {
   return (
-    <section className="w-full bg-sky-50 pt-10 md:px-20 flex flex-col md:flex-row items-center">
+    <section className="w-full bg-sky-50 pt-10 px-4 md:px-20 flex flex-col md:flex-row items-center overflow-hidden">
 
       {/* LEFT CONTENT WITH SLOW SLIDE-IN */}
       <motion.div
@@ -25,7 +23,7 @@ export default function HeroSection() {
           ease: "easeOut",
           delay: 0.3    // slightly late load
         }}
-        className="w-full md:w-1/2 space-y-6 flex flex-col items-center md:items-start text-center md:text-left px-2"
+        className="w-full md:w-1/2 space-y-5 flex flex-col items-center md:items-start text-center md:text-left"
       >
         <motion.h1
           initial={{ opacity: 0, y: -60 }}
@@ -35,7 +33,7 @@ export default function HeroSection() {
             ease: "easeOut",
             delay: 0.6
           }}
-          className="text-7xl font-bold text-[#043D5D] mb-4"
+          className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-[#043D5D] mb-4"
         >
           Shubham Maurya
         </motion.h1>
@@ -48,9 +46,9 @@ export default function HeroSection() {
             ease: "easeOut",
             delay: 1
           }}
-          className="text-2xl italic text-[#043D5D] font-semibold"
+          className="text-lg sm:text-xl md:text-2xl lg:text-3xl italic text-[#043D5D] font-semibold"
         >
-          ( full-stack developer )
+          ( Full-Stack Developer )
         </motion.p>
 
         <motion.p
@@ -61,7 +59,7 @@ export default function HeroSection() {
             ease: "easeOut",
             delay: 1.3
           }}
-          className="text-4xl text-gray-500 leading-snug font-medium"
+          className="text-lg sm:text-xl md:text-3xl lg:text-4xl text-gray-500 leading-relaxed font-medium text-justify sm:text-center md:text-left mb-4"
         >
           A passionate Full-Stack Software Developer dedicated to building
           end-to-end digital products that are scalable, sustainable, and
@@ -125,15 +123,18 @@ export default function HeroSection() {
           ease: "easeOut",
           delay: 0.8
         }}
-        className="md:w-1/2 w-full flex justify-top md:justify-center mt-10 md:mt-0"
+        className="w-full md:w-1/2 flex justify-center mt-10 md:mt-0"
       >
         <img
           src={heroimage}
           alt="Hero Illustration"
-          className="w-[85%]"
+          className="w-[90%] sm:w-[75%] md:w-[85%]"
         />
       </motion.div>
 
     </section>
   );
 }
+
+
+

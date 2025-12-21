@@ -142,7 +142,7 @@ export default function ProjectCard() {
               </h3>
 
               {/* Description */}
-              <p className="text-slate-700 leading-relaxed mb-6">
+              <p className="text-slate-700 leading-relaxed mb-6 text-left">
                 {project.description}
               </p>
 

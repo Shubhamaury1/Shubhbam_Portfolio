@@ -90,7 +90,7 @@ export default function Degree() {
                   {item.points.map((p, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <span className="text-orange-500 text-xl mt-1">⚡</span>
-                      <p className="text-gray-700 text-lg leading-relaxed">
+                      <p className="text-gray-700 text-lg leading-relaxed text-left md:text-left">
                         {p}
                       </p>
                     </div>
@@ -171,7 +171,7 @@ export default function Degree() {
                   {item.points.map((p, i) => (
                     <div key={i} className="flex items-start gap-3">
                       <span className="text-orange-500 text-xl mt-1">⚡</span>
-                      <p className="text-gray-700 text-lg leading-relaxed">
+                      <p className="text-gray-700 text-lg leading-relaxed text-left md:text-left">
                         {p}
                       </p>
                     </div>
